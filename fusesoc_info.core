@@ -1,0 +1,30 @@
+CAPI=2:
+
+name: AFRL:device_converter:ft245_sync_to_axis:0.0.0
+description: FT245 FIFO to AXIS conversion core.
+
+filesets:
+  src:
+    files:
+      - src/ft245_sync_to_axis.v
+    file_type: verilogSource
+  
+  tb:
+    files:
+      - tb/tb_axis.v  : { file_type: verilogSource }
+      - tb/in.bin     : { file_type: user, copyto: in.bin }
+      
+  dep_tb:
+    depend:
+      - AFRL:simulation:axis_stimulator
+    
+targets:
+  default: &default
+    filesets: [src]
+  
+  sim:
+    <<: *default
+    default_tool: icarus
+    filesets_append: [tb, dep_tb]
+    toplevel: tb_axis
+    
