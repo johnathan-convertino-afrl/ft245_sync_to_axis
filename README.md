@@ -1,5 +1,5 @@
 # Synchronus FT245 to AXI streaming converter
-## FT245 to AXIS
+### FT245 to AXIS !!!WARNING!!! WORK IN PROGRESS NOT TESTED IN HARDWARE, SIM IS INCOMPLETE.
 ---
 
    author: Jay Convertino   
@@ -35,9 +35,14 @@ Untested in hardware, simulation needs work.
 #### TB
 
 * tb_axis.v
-* in.bin
 
 ### fusesoc
 
 * fusesoc_info.core created.
 * Simulation uses icarus to run data through the core.
+
+#### TARGETS
+
+* RUN WITH: (fusesoc run --target=sim VENDER:CORE:NAME:VERSION)
+  - default (for IP integration builds)
+  - sim

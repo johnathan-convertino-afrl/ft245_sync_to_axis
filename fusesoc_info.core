@@ -17,6 +17,7 @@ filesets:
   dep_tb:
     depend:
       - AFRL:simulation:axis_stimulator
+      - AFRL:utility:sim_helper
     
 targets:
   default: &default

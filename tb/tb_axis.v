@@ -208,7 +208,7 @@ module tb_axis;
     .BUS_WIDTH(1),
     .USER_WIDTH(1),
     .DEST_WIDTH(1),
-    .FILE("in.bin")
+    .FILE("const.bin")
   ) slave_axis_stim (
     // output to slave
     .m_axis_aclk(tb_data_clk),
