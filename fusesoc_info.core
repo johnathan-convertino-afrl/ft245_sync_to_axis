@@ -21,10 +21,12 @@ filesets:
     
 targets:
   default: &default
+    description: Default for IP intergration.
     filesets: [src]
   
   sim:
     <<: *default
+    description: Default simulation using icarus.
     default_tool: icarus
     filesets_append: [tb, dep_tb]
     toplevel: tb_axis

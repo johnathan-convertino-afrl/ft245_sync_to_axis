@@ -12,11 +12,20 @@
    
 ---
 
-![rtl_img](./rtl.png)
+### Version
+#### Current
+  - V0.0.0 - initial release
 
-### Dependencies 
+#### Previous
+  - none
+
+### Dependencies
+#### Build
+  - AFRL:utility:helper:1.0.0
+
 #### Simulation
   - AFRL:simulation:axis_stimulator
+  - AFRL:utility:sim_helper
 
 ### IP USAGE
 #### INSTRUCTIONS
