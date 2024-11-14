@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("bri",["Information"],[["Brief",,[[,,,,0,"File:ft245_sync_to_axis.v:Brief"]]]]);

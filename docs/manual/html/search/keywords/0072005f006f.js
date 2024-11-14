@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("r_o",["Variable"],[["r_oen",,[["ft245_sync_to_axis",,,,0,"File:ft245_sync_to_axis.v:ft245_sync_to_axis.r_oen","SystemVerilogModule:ft245_sync_to_axis:r_oen"]]]]);
