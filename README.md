@@ -1,5 +1,8 @@
 # Synchronus FT245 to AXI streaming converter
 ### FT245 to AXIS !!!WARNING!!! WORK IN PROGRESS NOT TESTED IN HARDWARE, SIM IS INCOMPLETE.
+
+![image](docs/manual/img/AFRL.png)
+
 ---
 
    author: Jay Convertino   
@@ -19,7 +22,13 @@
 #### Previous
   - none
 
-### Dependencies
+### DOCUMENTATION
+  For detailed usage information, please navigate to one of the following sources. They are the same, just in a different format.
+
+  - [ft245_sync_to_axis.pdf](docs/manual/ft245_sync_to_axis.pdf)
+  - [github page](https://johnathan-convertino-afrl.github.io/ft245_sync_to_axis/)
+
+### DEPENDENCIES
 #### Build
   - AFRL:utility:helper:1.0.0
 
@@ -27,12 +36,7 @@
   - AFRL:simulation:axis_stimulator
   - AFRL:utility:sim_helper
 
-### IP USAGE
-#### INSTRUCTIONS
-
-Untested in hardware, simulation needs work.
-
-#### PARAMETERS
+### PARAMETERS
 
 * BUS_WIDTH : DEFAULT : 1 : Width of the bus for axis and FT245.
 
@@ -45,12 +49,12 @@ Untested in hardware, simulation needs work.
 
 * tb_axis.v
 
-### fusesoc
+### FUSESOC
 
 * fusesoc_info.core created.
 * Simulation uses icarus to run data through the core.
 
-#### TARGETS
+#### Targets
 
 * RUN WITH: (fusesoc run --target=sim VENDER:CORE:NAME:VERSION)
   - default (for IP integration builds)
