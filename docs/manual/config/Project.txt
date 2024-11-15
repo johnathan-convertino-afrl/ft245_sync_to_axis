@@ -81,7 +81,7 @@ Home Page: ../html/other/html.html
 # ------------------------------------------------------------------------
 
 Source Folder: ../../../src
-   Name: bus_uart
+   Name: ft245_sync_to_AXIS
 
 
 # This is where you tell Natural Docs which folders it should scan for source
