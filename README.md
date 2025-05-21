@@ -5,14 +5,19 @@
 
 ---
 
-   author: Jay Convertino   
+  author: Jay Convertino   
+  
+  date: 2022.08.09  
+  
+  details: Convert FT245 data stream to axis or axis to FT245, priority to FT245 read.   
+  
+  license: MIT   
    
-   date: 2022.08.09  
-   
-   details: Convert FT245 data stream to axis or axis to FT245, priority to FT245 read.   
-   
-   license: MIT   
-   
+  Actions:  
+
+  [![Lint Status](../../actions/workflows/lint.yml/badge.svg)](../../actions)  
+  [![Manual Status](../../actions/workflows/manual.yml/badge.svg)](../../actions)  
+  
 ---
 
 ### Version
@@ -27,14 +32,6 @@
 
   - [ft245_sync_to_axis.pdf](docs/manual/ft245_sync_to_axis.pdf)
   - [github page](https://johnathan-convertino-afrl.github.io/ft245_sync_to_axis/)
-
-### DEPENDENCIES
-#### Build
-  - AFRL:utility:helper:1.0.0
-
-#### Simulation
-  - AFRL:simulation:axis_stimulator
-  - AFRL:utility:sim_helper
 
 ### PARAMETERS
 
@@ -58,4 +55,5 @@
 
 * RUN WITH: (fusesoc run --target=sim VENDER:CORE:NAME:VERSION)
   - default (for IP integration builds)
+  - lint
   - sim

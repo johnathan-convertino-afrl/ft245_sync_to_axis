@@ -6,7 +6,7 @@
 // date:    2022/08/09
 //
 // about:   Brief
-// Converter FT245 sync FIFO interface to AXIS.
+// Converter FT245 sync FIFO interface to AXIS. Work in progress.
 //
 // license: License MIT
 // Copyright 2022 Jay Convertino
